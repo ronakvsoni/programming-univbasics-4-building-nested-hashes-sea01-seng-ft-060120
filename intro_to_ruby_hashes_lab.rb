@@ -7,7 +7,7 @@ end
 p base_hash
 
 def monopoly_with_second_tier
-  tesing = { :railroads => {} }
+  tesing = { [:railroads].has_key?(:pieces)).to(be_truthy,}
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
